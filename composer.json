@@ -1,0 +1,20 @@
+{
+  "name": "mrkrstphr/peridot-automock-plugin",
+  "description": "A plugin to reduce mocking boilerplate for a given class using Prophecy",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Kristopher Wilson",
+      "email": "kristopherwilson@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Mrkrstphr\\Peridot\\Plugin\\Automock\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=5.5,<7.0",
+    "peridot-php/peridot-prophecy-plugin": "~1.0"
+  }
+}
