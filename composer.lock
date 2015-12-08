@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c42dd2afc869c7201e891a0bdf3f174f",
-    "content-hash": "1f767a06d08f270e7e26d20c7785accd",
+    "hash": "5fb6c25eadc6246b258cd171b09b39c0",
+    "content-hash": "50c6824593a8d80d76f5f727063d79a6",
     "packages": [
         {
             "name": "doctrine/instantiator",
@@ -744,6 +744,57 @@
         }
     ],
     "packages-dev": [
+        {
+            "name": "peridot-php/leo",
+            "version": "1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/peridot-php/leo.git",
+                "reference": "c05800425c264a6ac72fefb803fd98e9bf8d2073"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/peridot-php/leo/zipball/c05800425c264a6ac72fefb803fd98e9bf8d2073",
+                "reference": "c05800425c264a6ac72fefb803fd98e9bf8d2073",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "peridot-php/peridot-jumpstart": "~1.0",
+                "peridot-php/peridot-prophecy-plugin": "~1.0",
+                "satooshi/php-coveralls": "~0.6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Peridot\\Leo\\": "src/"
+                },
+                "files": [
+                    "src/Interfaces/_interface.bdd.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Brian Scaturro",
+                    "email": "scaturrob@gmail.com"
+                }
+            ],
+            "description": "Next level assertion and matcher library for PHP",
+            "keywords": [
+                "assert",
+                "expect",
+                "expectation",
+                "matcher",
+                "testing"
+            ],
+            "time": "2015-02-20 17:50:42"
+        },
         {
             "name": "squizlabs/php_codesniffer",
             "version": "2.4.0",
