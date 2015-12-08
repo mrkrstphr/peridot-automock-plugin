@@ -14,7 +14,10 @@
     }
   },
   "require": {
-    "php": ">=5.5,<7.0",
+    "php": ">=5.5,<8.0",
     "peridot-php/peridot-prophecy-plugin": "~1.0"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^2.4"
   }
 }
